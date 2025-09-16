@@ -39,11 +39,13 @@ voice-ai-app/
 ## 📦 Installation
 
 ### Option 1: Automated Setup (Recommended)
+
 ```bash
 ./setup.sh
 ```
 
 ### Option 2: Manual Setup
+
 ```bash
 # Install backend dependencies
 cd backend
@@ -76,22 +78,27 @@ CARTESIA_API_KEY=your-cartesia-api-key
 ## 🚀 Development
 
 ### Start Backend Server
+
 ```bash
 cd backend
 pnpm dev
 ```
+
 Backend runs on: `http://localhost:3001`
 
 ### Start Frontend Server
+
 ```bash
 cd frontend
 pnpm dev
 ```
+
 Frontend runs on: `http://localhost:3000`
 
 ## 🏗️ Build for Production
 
 ### Backend
+
 ```bash
 cd backend
 pnpm run build
@@ -99,6 +106,7 @@ pnpm start
 ```
 
 ### Frontend
+
 ```bash
 cd frontend
 pnpm run build
@@ -108,12 +116,14 @@ pnpm start
 ## 🧪 Testing
 
 ### Backend Tests
+
 ```bash
 cd backend
 pnpm test
 ```
 
 ### Frontend Linting
+
 ```bash
 cd frontend
 pnpm lint
@@ -122,6 +132,7 @@ pnpm lint
 ## 📚 Available Scripts
 
 ### Backend Scripts
+
 - `pnpm dev` - Start development server
 - `pnpm build` - Build for production
 - `pnpm start` - Start production server
@@ -130,6 +141,7 @@ pnpm lint
 - `pnpm format` - Format code with Prettier
 
 ### Frontend Scripts
+
 - `pnpm dev` - Start development server with Turbopack
 - `pnpm build` - Build for production
 - `pnpm start` - Start production server
@@ -139,6 +151,7 @@ pnpm lint
 ## 🔧 Tech Stack
 
 ### Backend
+
 - **Node.js** with TypeScript
 - **LiveKit Agents** - Real-time AI agents
 - **OpenAI** - Language model integration
@@ -147,6 +160,7 @@ pnpm lint
 - **Cartesia** - Voice synthesis
 
 ### Frontend
+
 - **Next.js 15** with React 19
 - **TypeScript** for type safety
 - **Tailwind CSS** for styling
