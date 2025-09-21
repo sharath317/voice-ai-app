@@ -5,7 +5,7 @@ A voice-enabled AI application with React frontend and Node.js backend, built wi
 ## 🚀 Quick Start
 
 ```bash
-# Run the setup script
+# Run the setup scriptsalea
 ./setup.sh
 
 # Start development servers

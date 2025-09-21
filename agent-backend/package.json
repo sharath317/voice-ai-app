@@ -17,6 +17,17 @@
     "dev:agent": "NODE_OPTIONS='--no-deprecation' tsx src/agent.ts dev",
     "dev:openrouter": "NODE_OPTIONS='--no-deprecation' tsx src/agent2.ts dev",
     "dev:sales-openrouter": "NODE_OPTIONS='--no-deprecation' tsx src/sales-agent.ts dev",
+    "dev:enhanced": "NODE_OPTIONS='--no-deprecation' tsx src/enhanced-sales-agent.ts dev",
+    "dev:multi-tenant": "NODE_OPTIONS='--no-deprecation' tsx src/multi-tenant-sales-agent.ts dev",
+    "dev:bulletproof": "NODE_OPTIONS='--no-deprecation' tsx src/bulletproof-sales-agent.ts dev",
+    "dev:mastra": "NODE_OPTIONS='--no-deprecation' tsx src/mastra-inspired-agent.ts dev",
+    "dev:mastra-livekit": "NODE_OPTIONS='--no-deprecation' tsx src/mastra-livekit-agent.ts dev",
+    "dev:ghl-mcp": "NODE_OPTIONS='--no-deprecation' tsx src/ghl-mcp-agent.ts dev",
+    "dev:test-voice": "NODE_OPTIONS='--no-deprecation' tsx src/test-voice-agent.ts dev",
+    "dev:enterprise-sales": "NODE_OPTIONS='--no-deprecation' tsx enterprise-agents/sales/sales-agent.ts dev",
+    "dev:enterprise-customer-service": "NODE_OPTIONS='--no-deprecation' tsx enterprise-agents/customer-service/customer-service-agent.ts dev",
+    "dev:enterprise-hr": "NODE_OPTIONS='--no-deprecation' tsx enterprise-agents/hr/hr-agent.ts dev",
+    "dev:enterprise-marketing": "NODE_OPTIONS='--no-deprecation' tsx enterprise-agents/marketing/marketing-agent.ts dev",
     "download-files": "pnpm run build && node dist/agent.js download-files",
     "start": "NODE_OPTIONS='--no-deprecation' node dist/agent.js start"
   },
@@ -28,6 +39,7 @@
     "@eslint/js": "^9.34.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^22.18.0",
+    "@types/pg": "^8.10.9",
     "eslint": "^9.34.0",
     "globals": "^16.3.0",
     "jiti": "^2.5.1",
@@ -44,7 +56,11 @@
     "@livekit/agents-plugin-openai": "^1.0.0",
     "@livekit/agents-plugin-silero": "^1.0.0",
     "@livekit/noise-cancellation-node": "^0.1.9",
+    "@mastra/core": "^0.17.1",
+    "@mastra/memory": "^0.15.2",
+    "@mastra/voice-openai": "^0.11.5",
     "dotenv": "^17.2.1",
+    "pg": "^8.11.3",
     "zod": "^3.25.76"
   }
 }
