@@ -9,8 +9,8 @@ A voice-enabled AI application with React frontend and Node.js backend, built wi
 ./setup.sh
 
 # Start development servers
-cd backend && pnpm dev    # Terminal 1
-cd frontend && pnpm dev   # Terminal 2
+cd agent-backend && pnpm dev    # Terminal 1
+cd frontend && pnpm dev   # Terminal 2 , run the agent you want to test refer to package.json for commands
 ```
 
 ## 📁 Project Structure
@@ -22,7 +22,7 @@ voice-ai-app/
 │   ├── components/   # React components
 │   ├── hooks/        # Custom React hooks
 │   └── lib/          # Utility functions
-├── backend/          # Node.js backend API
+├── agent-backend/          # Node.js backend API
 │   ├── src/          # TypeScript source code
 │   ├── dist/         # Compiled JavaScript
 │   └── routes/       # API routes
