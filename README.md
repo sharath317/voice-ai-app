@@ -73,6 +73,19 @@ OPENAI_API_KEY=your-openai-api-key
 DEEPGRAM_API_KEY=your-deepgram-api-key
 ELEVEN_API_KEY=your-elevenlabs-api-key
 CARTESIA_API_KEY=your-cartesia-api-key
+
+GOOGLE_API_KEY=gemini-api-key
+
+OPENROUTER_API_KEY=open-router-key
+OPENROUTER_APP_NAME=suno
+OPENROUTER_APP_URL=http://localhost:3000
+
+GROQ_API_KEY=groc-api-key
+CEREBRAS_API_KEY=cerebras-api-key
+
+GHL_API_KEY=ghl-api-key
+GHL_LOCATION_ID=ghl-location-id
+
 ```
 
 ## 🚀 Development
